@@ -1,0 +1,70 @@
+title: "小瑜ㄦ｜數位游牧 × 聯盟行銷 × 小小 KOC"
+email: "peucastleshop@gmail.com"
+description: "一台筆電＋一支手機，媽媽也能打造副業收入。AI × 自媒體 × 蝦皮直播，陪你走向時間與地理自由。"
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "pink"
+
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 6
+paginate_path: /page:num/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+author:
+  name: "小瑜"
+  avatar: "/assets/images/avatar.png"
+  bio: "媽媽 × 數位創業者｜用 AI + 自媒體 + 蝦皮直播，帶你打造可複製的副業收入"
+  location: "Taiwan"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:peucastleshop@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://instagram.com/"
+    - label: "Shopee 直播"
+      icon: "fas fa-shopping-bag"
+      url: "https://shopee.tw/"
+    - label: "Threads"
+      icon: "fab fa-threads"
+      url: "https://www.threads.net/"
+
+footer:
+  links:
+    - label: "IG"
+      icon: "fab fa-instagram"
+      url: "https://instagram.com/"
+    - label: "Shopee"
+      icon: "fas fa-shopping-bag"
+      url: "https://shopee.tw/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:peucastleshop@gmail.com"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: false
+      show_date: false
